@@ -113,6 +113,8 @@ header {
 
 }
 
+header h1 {margin: 0.67em 0 0 0;}
+
 .titre_header{
   display: flex;
   flex-direction: row;
