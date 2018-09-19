@@ -96,7 +96,116 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+  font-family: arial, verdana, sans-serif;
+  color: #1b1b1e;
+  display: flex;
+  flex-direction: column;
+}
 
+header {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: #ecebee;
+  width:100%;
+  height: 210px;
+
+}
+
+.titre_header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:80%;
+  margin: 0 auto;
+}
+
+nav {
+  margin: 30px 0 0 0;
+  text-align: right;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 0 10px;
+  padding-left: 30px;
+  background: url("../img/connexion.png") no-repeat left top;
+}
+
+nav a{
+  color: #1b1b1e;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.logo_section{
+  text-align: center;
+}
+
+main{
+  padding-top: 230px;
+  background-color: #7969c2;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.titre_section{
+  display: flex;
+  flex-direction: row;
+}
+
+.h2_section{
+  width:50%;
+}
+
+.tri_section{
+  width:50%;
+  text-align:right;
+  margin-top:20px;
+}
+
+.article{
+  width:80%;
+  margin:auto;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.bloc_articles{
+  display: flex;
+  flex-direction: row;
+}
+
+article{
+  width:30%;
+  max-height: 220px;
+  overflow: auto;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  border : 1px solid #373f51;
+  padding:1em;
+}
+
+.titre_article{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ol li.fini{
+  text-decoration: line-through;
+}
+
+.marginright{
+  margin-right: 1.5%;
+}
 
 
 

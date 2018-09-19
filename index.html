@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>Tableau de bord Projets</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -23,73 +23,144 @@
 
   <!-- Add your site or application content here -->
   <header>
-    <nav>
-      <aside>
-        <img src="" alt="logo société" title="logo société" />
-      </aside>
-
-      <aside>
-        <a href="">Connexion/Inscription</a>
-      </aside>
-    </nav>
-    <section>
+    <section class="titre_header">
       <h1>Tableau de bord Projets</h1>
+
+      <nav>
+        <ul>
+          <li><a href="#">Connectez-vous</a></li>
+          <li><a href="#">Inscrivez-vous</a></li>
+        </ul>
+      </nav>
     </section>
+
+    <div class="logo_section">
+      <img src="img/logo_societe.png" alt="logo société" title="logo société" />
+    </div>
   </header>
 
   <main>
-    <section>
-      <div>
-        <h2>Semainde du 17 au 21 septembre 2018 </h2>
-        <select>
+    <section class="article">
+      <div class="titre_section">
+        <div class="h2_section"><h2>Semaine du 17 au 21 septembre 2018 </h2></div>
+        <div class="tri_section">
+          <select>
            <option value="">Tri...</option>
            <option value="date">Date limite</option>
            <option value="categorie">Catégorie</option>
            <option value="auteur">Auteur</option>
-        </select>
+          </select>
+        </div>
       </div>
-      <div>
-        <article>
-          <div>
+
+      <div class="bloc_articles">
+        <article class="marginright">
+          <div class="titre_article">
             <h3>Titre du projet n°1</h3>
-            <img src="" alt="icône projet en cours" title="icône projet en cours" />
+            <p><img src="img/en-cours.png" alt="projet en cours" title="projet en cours" /></p>
           </div>
           <ol>
-            <li>Tâche</li>
+            <li class="fini">Tâche</li>
             <li>Tâche</li>
             <li>Tâche</li>
             <li>Tâche</li>
             <li>Tâche</li>
           </ol>
         </article>
-        <article>
-          <div>
+        <article  class="marginright">
+          <div class="titre_article">
             <h3>Titre du projet n°2</h3>
-            <img src="" alt="icône projet terminé" title="icône projet terminé" />
+            <p><img src="img/valide.png" alt="projet terminé" title="projet terminé" /></p>
+          </div>
+          <ol>
+            <li class="fini">Tâche</li>
+            <li class="fini">Tâche</li>
+            <li class="fini">Tâche</li>
+            <li class="fini">Tâche</li>
+            <li class="fini">Tâche</li>
+          </ol>
+        </article>
+        <article>
+          <div class="titre_article">
+            <h3>Titre du projet n°3</h3>
+            <p><img src="img/fini.png" alt="projet en retard" title="projet en retard" /></p>
+          </div>
+          <ol>
+            <li>Tâche</li>
+            <li  class="fini">Tâche</li>
+            <li>Tâche</li>
+            <li class="fini">Tâche</li>
+            <li>Tâche</li>
+            <li  class="fini">Tâche</li>
+            <li>Tâche</li>
+            <li class="fini">Tâche</li>
+            <li>Tâche</li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="article">
+      <div class="titre_section">
+        <div class="h2_section"><h2>Semaine du 24 au 28 septembre 2018 </h2></div>
+        <div class="tri_section">
+          <select>
+           <option value="">Tri...</option>
+           <option value="date">Date limite</option>
+           <option value="categorie">Catégorie</option>
+           <option value="auteur">Auteur</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="bloc_articles">
+        <article class="marginright">
+          <div class="titre_article">
+            <h3>Titre du projet n°1</h3>
+            <p><img src="img/valide.png" alt="projet terminé" title="projet terminé" /></p>
           </div>
           <ol>
             <li>Tâche</li>
             <li>Tâche</li>
             <li>Tâche</li>
             <li>Tâche</li>
+            <li>Tâche</li>
+            <li  class="fini">Tâche</li>
+            <li>Tâche</li>
+            <li class="fini">Tâche</li>
+            <li>Tâche</li>
+          </ol>
+        </article>
+        <article  class="marginright">
+          <div class="titre_article">
+            <h3>Titre du projet n°2</h3>
+            <p><img src="img/fini.png" alt="projet en retard" title="projet en retard" /></p>
+          </div>
+          <ol>
+            <li class="fini">Tâche</li>
+            <li>Tâche</li>
+            <li>Tâche</li>
+            <li class="fini">Tâche</li>
             <li>Tâche</li>
           </ol>
         </article>
         <article>
-          <div>
+          <div class="titre_article">
             <h3>Titre du projet n°3</h3>
-            <img src="" alt="icône projet en cours" title="icône projet en cours" />
+            <p><img src="img/en-cours.png" alt="projet en cours" title="projet en cours" /></p>
           </div>
           <ol>
+            <li class="fini">Tâche</li>
             <li>Tâche</li>
-            <li>Tâche</li>
-            <li>Tâche</li>
+            <li class="fini">Tâche</li>
             <li>Tâche</li>
             <li>Tâche</li>
           </ol>
         </article>
       </div>
     </section>
+
   </main>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
